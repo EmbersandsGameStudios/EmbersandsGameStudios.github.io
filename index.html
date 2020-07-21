@@ -4,24 +4,37 @@
         <script data-ad-client="ca-pub-9710791909264969" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link rel="stylesheet" href="styles/nav-3.css"/>
+        <link rel="stylesheet" href="styles/nav-1.css"/>
         <link rel="stylesheet" href="styles/styles.css"/>
         <title>Emebersands Game Studios</title>
         <link rel="icon" href="images/logo.png">
     </head>
     <body>
         <header>
-            <a href="#"><img src="images/logo.png" alt="logo" height="50" width="50" class="logo"></a>
-            <nav class="nav_links">
-                <ul>
+            <a class="logo" href="/"><img src="images/logo.png" alt="logo" height="50" width="50"></a>
+            <nav>
+                <ul class="nav__links">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Socials</a></li>
                 </ul>
             </nav>
-            <a class="pat" href="https://www.patreon.com/embersandsgamestudios"><button>Patreon</button></a>
+            <a class="cta" href="https://www.patreon.com/embersandsgamestudios">Patreon</a>
+            <p class="menu cta">Menu</p>
         </header>
+        <div id="mobile__menu" class="overlay">
+            <a class="close">&times;</a>
+            <div class="overlay__content">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Socials</a>
+            </div>
+        </div>
 
-        <h1>Hello, World!</h1>
+        <div class="main">
+            <h1>Hello, World!</h1>
+        </div>
+
+        <script src="mobile.js"></script>
     </body>
 </html>
