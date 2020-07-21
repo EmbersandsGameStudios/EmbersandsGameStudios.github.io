@@ -125,11 +125,16 @@ header {
 }
   
 @media only screen and (max-width: 800px) {
-    .nav__links, .cta {
+    .nav__links, .cta, .ko {
         display: none;
     }
     .menu {
         display: initial;
+        background-color: rgba(0, 136, 169, 1);;
+    }
+    .menu:hover
+    {
+        background-color: rgba(0, 136, 169, 0.8);
     }
 }
   
