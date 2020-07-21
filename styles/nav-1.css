@@ -12,6 +12,7 @@ header {
 
 .nav__links a,
 .cta,
+.ko,
 .overlay__content a {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -38,7 +39,7 @@ header {
 
 .cta {
     padding: 9px 25px;
-    background-color: rgba(0, 136, 169, 1);
+    background-color: rgba(255, 165, 0, 1);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -46,7 +47,20 @@ header {
 }
 
 .cta:hover {
-    background-color: rgba(0, 136, 169, 0.8);
+    background-color: rgba(255, 165, 0, 0.8);
+}
+
+.ko {
+    background-color: rgba(255, 95, 95, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 9px 25px;
+    transition: background-color 0.3s ease 0s;
+}
+
+.ko:hover {
+    background-color: rgba(255, 95, 95, 0.8);
 }
 
 /* Mobile Nav */
