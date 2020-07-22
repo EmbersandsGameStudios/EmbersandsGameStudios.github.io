@@ -52,3 +52,28 @@ h2
 {
 	padding: 30px;
 }
+
+ul.undec
+{
+	list-style: none;
+}
+
+div.imgs
+{
+	display: flex;
+	margin-top: 100px;
+	justify-content: center;
+}
+
+div.imgs div
+{
+	margin: auto;
+}
+
+@media only screen and (max-width: 800px)
+{
+	div.imgs
+	{
+		display: inline-block;
+	}
+}
