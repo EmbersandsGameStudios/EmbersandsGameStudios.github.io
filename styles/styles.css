@@ -41,6 +41,11 @@ div.sclns
 	margin: auto;
 }
 
+div.sclns div
+{
+	display: flex;
+}
+
 img.scl
 {
 	height: 200px;
