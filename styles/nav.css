@@ -6,6 +6,11 @@ header {
     background-color: #24252a;
 }
 
+header {
+    position: fixed;
+    width: 100%;
+}
+
 .logo {
     cursor: pointer;
 }
