@@ -1,37 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
-*
-{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-	color: white; 
-	font-family: "Roboto", sans-serif;
-	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+        1px 1px 0 #000;
 }
 
-body
-{
-	background-attachment: fixed;
-	background-color: #101010;
-	background-image: url(../images/background.png);
-	background-repeat: no-repeat;
+body {
+    background-attachment: fixed;
+    background-color: #101010;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
 }
 
-h1.title
-{
-	padding: 30px;
-	text-transform: uppercase;
-	text-align: center;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
 }
 
-div.main
-{
-	/* background-color: red; */
-	margin: auto;
-	margin-top: 125px;
-	width: 50%;
-	text-align: center;
+.title {
+    padding: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+div.main {
+    /* background-color: red; */
+    margin: auto;
+    margin-top: 125px;
+    width: 50%;
+    text-align: left;
 }
 
 /* a.more
@@ -39,52 +46,43 @@ div.main
 	color: rgb(16, 16, 255);
 } */
 
-div.sclns
-{
-	display: inline-block;
-	margin: auto;
+div.sclns {
+    display: inline-block;
+    margin: auto;
 }
 
-div.sclns div
-{
-	display: flex;
+div.sclns div {
+    display: flex;
 }
 
-img.scl
-{
-	border-style: solid;
-	border-radius: 50%;
-	height: 200px;
-	margin: 20px;
-	width: 200px;
+img.scl {
+    border-style: solid;
+    border-radius: 50%;
+    height: 200px;
+    margin: 20px;
+    width: 200px;
 }
 
-h2
-{
-	padding: 30px;
+h2 {
+    padding: 30px 0px;
 }
 
-ul.undec
-{
-	list-style: none;
+ul.undec {
+    list-style: none;
 }
 
-div.imgs
-{
-	display: flex;
-	margin-top: 100px;
-	justify-content: center;
+div.imgs {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
 }
 
-div.imgs div
-{
-	margin: auto;
+div.imgs div {
+    margin: auto;
 }
 
-@media only screen and (max-width: 800px)
-{
-	div.imgs
-	{
-		display: inline-block;
-	}
+@media only screen and (max-width: 800px) {
+    div.imgs {
+        display: inline-block;
+    }
 }
